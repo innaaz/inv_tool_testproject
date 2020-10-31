@@ -6,7 +6,8 @@
     "dev": "nuxt-ts",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
-    "generate": "nuxt-ts generate"
+    "generate": "nuxt-ts generate",
+    "start-server": "nodemon index.js"
   },
   "dependencies": {
     "@hapi/hapi": "^20.0.1",
@@ -14,7 +15,10 @@
     "@nuxt/typescript-runtime": "^2.0.0",
     "core-js": "^3.6.5",
     "mongodb": "^3.6.2",
-    "nuxt": "^2.14.6"
+    "nodemon": "^2.0.6",
+    "nuxt": "^2.14.6",
+    "save": "^2.4.0",
+    "vuetify": "^2.3.16"
   },
   "devDependencies": {
     "@nuxt/types": "^2.14.6",

@@ -8,5 +8,5 @@ const url = 'mongodb://localhost:27017';
 const dbName = 'myproject';
 
 // Create a new MongoClient
-const client = new MongoClient(url);
+const client = new MongoClient(url, { useUnifiedTopology: true });
 module.exports = client;
